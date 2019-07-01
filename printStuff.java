@@ -1,5 +1,5 @@
-<?php
-
+public class printStuff{
+import static java.lang.System.out;
 /**
   ToDo:
     Make array output
@@ -10,7 +10,6 @@
     output count of the array line used.
 **/
 
-echo "hello world";
+System.out.print("hello world");
 
-
-?>
+}
