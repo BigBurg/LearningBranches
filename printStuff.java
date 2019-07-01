@@ -10,6 +10,11 @@ import static java.lang.System.out;
     output count of the array line used.
 **/
 
-System.out.print("hello world");
+  print("hello world");
+  
+  public static void print(String inStr)
+  {
+    System.out.print(inStr);
+  }
 
 }
