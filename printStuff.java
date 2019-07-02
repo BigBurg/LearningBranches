@@ -39,4 +39,6 @@ import static java.lang.System.out;
     print(abcs[inNum]);
   }
   
+    public static void salt(){}
+
 }
