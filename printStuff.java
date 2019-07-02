@@ -4,7 +4,6 @@ import static java.lang.System.out;
   ToDo:
     Salt output of single string
     pepper output of single string
-    output count of the array line used.
 **/
 
   print("hello world");
@@ -20,9 +19,11 @@ import static java.lang.System.out;
   
   public static void print(String[] inArr){
     int len = inArr.length;
+    int x = 0;
     for(int i = 0; i < len; ++i)
     {
-      print(inArr[i]); 
+      x = i + 1;
+      print(x + ". " + inArr[i]); 
     }
   }
   
